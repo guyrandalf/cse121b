@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Weather App</title>
+		<link rel="stylesheet" href="styles/main.css" />
+	</head>
+	<body>        
+		<div class="container">
+			<header>
+				<input
+					autocomplete="off"
+					placeholder="Search city..."
+					class="search"
+					type="text"
+					name=""
+					id="search"
+				/>
+                <small>Add a comma (,) to be specific. ex Benin, NG</small>
+			</header>
+			<main>
+				<section class="location">
+					<div class="city"></div>
+					<div class="date"></div>
+				</section>
+				<div class="current">
+					<div class="temperature"><span></span></div>
+					<div class="weather"> </div>
+					<div class="high-and-low"> </div>
+				</div>                
+			</main>
+		</div>
+
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
